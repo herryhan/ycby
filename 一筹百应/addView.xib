@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="p3I-1E-6kD" customClass="addView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发起筹款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZU-cD-bHI">
+                    <rect key="frame" x="40" y="60" width="325" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="sVy-IH-zyv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择要发起的项目类型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tj-Cp-GI5">
+                    <rect key="frame" x="40" y="100" width="325" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Pux-by-ps7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="239色块" translatesAutoresizingMaskIntoConstraints="NO" id="WOJ-cj-cPF">
+                    <rect key="frame" x="0.0" y="160" width="375" height="0.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="tne-X6-Yzm"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddHelp" translatesAutoresizingMaskIntoConstraints="NO" id="p1F-iX-o4j">
+                    <rect key="frame" x="10" y="170.5" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Dod-Qj-y8y"/>
+                        <constraint firstAttribute="width" constant="60" id="WqI-k8-wH6"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="239色块" translatesAutoresizingMaskIntoConstraints="NO" id="mYz-Cb-A8J">
+                    <rect key="frame" x="10" y="240.5" width="365" height="0.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="ueB-FQ-zof"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addDream" translatesAutoresizingMaskIntoConstraints="NO" id="U1a-qN-dUc">
+                    <rect key="frame" x="10" y="251" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="4F6-4J-fHr"/>
+                        <constraint firstAttribute="height" constant="60" id="Ppl-Xi-0Yr"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="239色块" translatesAutoresizingMaskIntoConstraints="NO" id="Sjz-17-Ivr">
+                    <rect key="frame" x="0.0" y="321" width="375" height="0.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="fgS-DH-dIz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人救助" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3z-nK-bYv">
+                    <rect key="frame" x="80" y="170" width="285" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="rZC-Dx-1jM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通过网络交互汇聚点滴爱心力量，帮助因疾病而深陷困境中的人们。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYP-VR-Z76">
+                    <rect key="frame" x="80" y="190" width="285" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="SZb-xe-QlT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="众筹梦想" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfe-D4-1lA">
+                    <rect key="frame" x="80" y="251" width="285" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="0Oe-so-xRV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有梦想、有创意、有项目的朋友提供众筹服务，协助您实现自己的创业梦想。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cli-B2-S2A">
+                    <rect key="frame" x="78" y="271" width="287" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Yc6-1v-cFI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hom-wm-NfM">
+                    <rect key="frame" x="0.0" y="160.5" width="375" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="lYU-aL-SAx"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="addHelpPress:" destination="p3I-1E-6kD" eventType="touchUpInside" id="7m9-Dn-ngC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olN-DB-5Td">
+                    <rect key="frame" x="0.0" y="241" width="375" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="IMD-eP-UNa"/>
+                    </constraints>
+                    <connections>
+                        <action selector="addDreamPress:" destination="p3I-1E-6kD" eventType="touchUpInside" id="ulg-NI-Nrv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Sjz-17-Ivr" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" id="0iT-8d-VsZ"/>
+                <constraint firstAttribute="trailing" secondItem="gZU-cD-bHI" secondAttribute="trailing" constant="10" id="2dT-KV-IFm"/>
+                <constraint firstItem="WOJ-cj-cPF" firstAttribute="top" secondItem="6Tj-Cp-GI5" secondAttribute="bottom" constant="40" id="5Rt-dp-IVU"/>
+                <constraint firstItem="olN-DB-5Td" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" id="61B-L0-VvI"/>
+                <constraint firstItem="gZU-cD-bHI" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" constant="40" id="75h-Lj-obV"/>
+                <constraint firstItem="6Tj-Cp-GI5" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" constant="40" id="8ts-ML-uj8"/>
+                <constraint firstItem="mYz-Cb-A8J" firstAttribute="top" secondItem="p1F-iX-o4j" secondAttribute="bottom" constant="10" id="B9r-Eb-x4U"/>
+                <constraint firstItem="cli-B2-S2A" firstAttribute="leading" secondItem="U1a-qN-dUc" secondAttribute="trailing" constant="8" id="BBH-pH-76Z"/>
+                <constraint firstItem="Z3z-nK-bYv" firstAttribute="top" secondItem="WOJ-cj-cPF" secondAttribute="bottom" constant="10" id="CaU-3v-YOW"/>
+                <constraint firstAttribute="trailing" secondItem="cli-B2-S2A" secondAttribute="trailing" constant="10" id="Caj-Lh-qhj"/>
+                <constraint firstAttribute="trailing" secondItem="Sjz-17-Ivr" secondAttribute="trailing" id="DFT-FM-tY5"/>
+                <constraint firstItem="p1F-iX-o4j" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" constant="10" id="DlF-fd-pfN"/>
+                <constraint firstItem="gZU-cD-bHI" firstAttribute="top" secondItem="p3I-1E-6kD" secondAttribute="top" constant="60" id="Fph-KM-eP1"/>
+                <constraint firstItem="hom-wm-NfM" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" id="H4D-Mb-2Un"/>
+                <constraint firstItem="sfe-D4-1lA" firstAttribute="leading" secondItem="U1a-qN-dUc" secondAttribute="trailing" constant="10" id="INK-Lb-EVG"/>
+                <constraint firstItem="WOJ-cj-cPF" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" id="LPu-Rm-ILK"/>
+                <constraint firstItem="aYP-VR-Z76" firstAttribute="leading" secondItem="p1F-iX-o4j" secondAttribute="trailing" constant="10" id="M0u-01-HVl"/>
+                <constraint firstAttribute="trailing" secondItem="olN-DB-5Td" secondAttribute="trailing" id="MJo-3M-BUF"/>
+                <constraint firstItem="6Tj-Cp-GI5" firstAttribute="top" secondItem="gZU-cD-bHI" secondAttribute="bottom" constant="20" id="PTt-le-zU0"/>
+                <constraint firstItem="sfe-D4-1lA" firstAttribute="top" secondItem="mYz-Cb-A8J" secondAttribute="bottom" constant="10" id="RYw-p7-UQn"/>
+                <constraint firstItem="U1a-qN-dUc" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" constant="10" id="S9R-gE-PVH"/>
+                <constraint firstItem="U1a-qN-dUc" firstAttribute="top" secondItem="mYz-Cb-A8J" secondAttribute="bottom" constant="10" id="Uyq-Yp-ARD"/>
+                <constraint firstItem="Sjz-17-Ivr" firstAttribute="top" secondItem="U1a-qN-dUc" secondAttribute="bottom" constant="10" id="XR7-CI-Oat"/>
+                <constraint firstAttribute="trailing" secondItem="mYz-Cb-A8J" secondAttribute="trailing" id="YxO-Kx-khB"/>
+                <constraint firstItem="Z3z-nK-bYv" firstAttribute="leading" secondItem="p1F-iX-o4j" secondAttribute="trailing" constant="10" id="bUf-cZ-3jp"/>
+                <constraint firstItem="hom-wm-NfM" firstAttribute="top" secondItem="WOJ-cj-cPF" secondAttribute="bottom" id="cqc-Km-CFE"/>
+                <constraint firstItem="p1F-iX-o4j" firstAttribute="top" secondItem="WOJ-cj-cPF" secondAttribute="bottom" constant="10" id="dvi-pA-NIW"/>
+                <constraint firstAttribute="trailing" secondItem="hom-wm-NfM" secondAttribute="trailing" id="hOK-xu-wPB"/>
+                <constraint firstAttribute="trailing" secondItem="6Tj-Cp-GI5" secondAttribute="trailing" constant="10" id="hZl-lW-oOY"/>
+                <constraint firstItem="aYP-VR-Z76" firstAttribute="top" secondItem="Z3z-nK-bYv" secondAttribute="bottom" id="juK-60-gdY"/>
+                <constraint firstAttribute="trailing" secondItem="WOJ-cj-cPF" secondAttribute="trailing" id="kCi-2N-zSZ"/>
+                <constraint firstItem="olN-DB-5Td" firstAttribute="top" secondItem="mYz-Cb-A8J" secondAttribute="bottom" id="khT-N1-5yg"/>
+                <constraint firstAttribute="trailing" secondItem="sfe-D4-1lA" secondAttribute="trailing" constant="10" id="lod-HF-wKl"/>
+                <constraint firstItem="mYz-Cb-A8J" firstAttribute="leading" secondItem="p3I-1E-6kD" secondAttribute="leading" constant="10" id="peD-f5-iPi"/>
+                <constraint firstItem="cli-B2-S2A" firstAttribute="top" secondItem="sfe-D4-1lA" secondAttribute="bottom" id="rTs-dw-7ch"/>
+                <constraint firstAttribute="trailing" secondItem="aYP-VR-Z76" secondAttribute="trailing" constant="10" id="rgc-Gu-UdJ"/>
+                <constraint firstAttribute="trailing" secondItem="Z3z-nK-bYv" secondAttribute="trailing" constant="10" id="y0n-Xm-eWm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="31.5" y="68.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="239色块" width="1" height="1"/>
+        <image name="AddHelp" width="39" height="39"/>
+        <image name="addDream" width="40" height="40"/>
+    </resources>
+</document>

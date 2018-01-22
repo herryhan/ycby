@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+target "一筹百应" do
+inhibit_all_warnings!
+pod 'AFNetworking', '~> 3.0.4'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'SDAutoLayout', '~> 2.1.3'
+pod 'FMDB', '~> 2.5'
+pod 'WechatOpenSDK'
+pod 'YYModel', '~> 1.0.2'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'YLGIFImage'
+pod 'WechatOpenSDK'
+end

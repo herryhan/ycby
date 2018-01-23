@@ -75,6 +75,8 @@
 		CE74C4081F9D86C600A0F767 /* project_infoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74C4071F9D86C600A0F767 /* project_infoView.m */; };
 		CE775A1C200902F10033E7C3 /* projectDetailBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE775A1B200902F10033E7C3 /* projectDetailBottomView.m */; };
 		CE775A1E2009030A0033E7C3 /* projectDetailBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE775A1D2009030A0033E7C3 /* projectDetailBottomView.xib */; };
+		CEDF64812016DC1C0094993A /* YBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF647F2016DC1C0094993A /* YBLoginViewController.m */; };
+		CEDF64822016DC1C0094993A /* YBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDF64802016DC1C0094993A /* YBLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,6 +221,9 @@
 		CE775A1A200902F10033E7C3 /* projectDetailBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectDetailBottomView.h; sourceTree = "<group>"; };
 		CE775A1B200902F10033E7C3 /* projectDetailBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectDetailBottomView.m; sourceTree = "<group>"; };
 		CE775A1D2009030A0033E7C3 /* projectDetailBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = projectDetailBottomView.xib; sourceTree = "<group>"; };
+		CEDF647E2016DC1C0094993A /* YBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLoginViewController.h; sourceTree = "<group>"; };
+		CEDF647F2016DC1C0094993A /* YBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBLoginViewController.m; sourceTree = "<group>"; };
+		CEDF64802016DC1C0094993A /* YBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YBLoginViewController.xib; sourceTree = "<group>"; };
 		D0AB0ED7C9F3E2502159CC34 /* libPods-一筹百应.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-一筹百应.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -430,6 +435,7 @@
 		72240CE71F8A75CF00762569 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CEDF6483201729760094993A /* Login */,
 				CE1DE6D81FE79DBE00138AEC /* add */,
 				720AFF5B1F8FBBBE00352952 /* HOME */,
 				72240CE81F8A766F00762569 /* baseViewController.h */,
@@ -438,6 +444,9 @@
 				72240CF21F8A76CC00762569 /* myViewController.m */,
 				72240CF71F8A851600762569 /* LoginViewController.h */,
 				72240CF81F8A851600762569 /* LoginViewController.m */,
+				CEDF647E2016DC1C0094993A /* YBLoginViewController.h */,
+				CEDF647F2016DC1C0094993A /* YBLoginViewController.m */,
+				CEDF64802016DC1C0094993A /* YBLoginViewController.xib */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -513,6 +522,13 @@
 				720C6CFE1F93980500FCFAAD /* MBProgressHUD */,
 			);
 			name = thirdParty;
+			sourceTree = "<group>";
+		};
+		CEDF6483201729760094993A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -633,6 +649,7 @@
 				CE53864C200FAD8700074822 /* proveTableViewCell.xib in Resources */,
 				72240D041F8DC7E700762569 /* appcert.cer in Resources */,
 				72240CB11F89009700762569 /* Assets.xcassets in Resources */,
+				CEDF64822016DC1C0094993A /* YBLoginViewController.xib in Resources */,
 				CE615B1A2012D0A8000CB98F /* MJPhotoBrowser.bundle in Resources */,
 				72240CAF1F89009700762569 /* Main.storyboard in Resources */,
 				720AFF5A1F8FB8FA00352952 /* testcert.cer in Resources */,
@@ -751,6 +768,7 @@
 				72240CA61F89009700762569 /* main.m in Sources */,
 				CE615B1E2012D0A8000CB98F /* MJPhotoToolbar.m in Sources */,
 				720AFF611F8FBC9400352952 /* dreamViewController.m in Sources */,
+				CEDF64812016DC1C0094993A /* YBLoginViewController.m in Sources */,
 				72240CE51F8A731800762569 /* JTBaseNavigationController.m in Sources */,
 				720AFF641F8FBCA200352952 /* projectViewController.m in Sources */,
 				CE615B1B2012D0A8000CB98F /* MJPhotoBrowser.m in Sources */,
@@ -914,7 +932,6 @@
 			baseConfigurationReference = 8826BF89E4FFB5EBCF6A9E33 /* Pods-一筹百应.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: XianWei Han (8UGFM3J5H6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -934,7 +951,6 @@
 			baseConfigurationReference = C2D808DFA1F52F0B40F01FA0 /* Pods-一筹百应.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: XianWei Han (8UGFM3J5H6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;

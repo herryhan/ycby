@@ -27,8 +27,8 @@
         self.hxwTAB=[[HxwTabBarController alloc]init];
         rootView = [[JTBaseNavigationController alloc]initWithRootViewController:self.hxwTAB];
     }else{
-        self.LoginVc = [[LoginViewController alloc]init];
-        rootView = [[JTBaseNavigationController alloc]initWithRootViewController:self.LoginVc];
+        self.ybLoginVc = [[YBLoginViewController alloc]init];
+        rootView = [[JTBaseNavigationController alloc]initWithRootViewController:self.ybLoginVc];
     }
     self.window.rootViewController = rootView;
     

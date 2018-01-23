@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HxwTabBarController.h"
 #import "LoginViewController.h"
+#import "YBLoginViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -17,6 +18,8 @@
 @property (strong, nonatomic) HxwTabBarController *hxwTAB;
 
 @property (strong, nonatomic) LoginViewController *LoginVc;
+
+@property (strong, nonatomic) YBLoginViewController *ybLoginVc;
 
 @end
 
